@@ -16,4 +16,12 @@ class BaseSort {
         System.out.println(stringBuilder.toString().trim());
         System.out.println("-------------------------");
     }
+
+    static int[] getArray() {
+        return Constant.sArray;
+    }
+
+    static int length() {
+        return Constant.sArray.length;
+    }
 }

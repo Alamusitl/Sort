@@ -1,13 +1,14 @@
 package com.owl;
 
 /**
+ * 快速排序法
  * Created by Alamusi on 2017/4/6.
  */
 
 public class QuickSort extends BaseSort {
 
     public static void main(String[] argv) throws Exception {
-        quickSort(Constant.sArray, 0, Constant.sArray.length - 1);
+        quickSort(getArray(), 0, length() - 1);
         print();
     }
 

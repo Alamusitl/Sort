@@ -1,13 +1,14 @@
 package com.owl;
 
 /**
+ * 插入排序
  * Created by Alamusi on 2017/4/6.
  */
 
 public class InsertSort extends BaseSort {
 
     public static void main(String[] argv) {
-        insertSort(Constant.sArray);
+        insertSort(getArray());
     }
 
     private static void insertSort(int[] a) {

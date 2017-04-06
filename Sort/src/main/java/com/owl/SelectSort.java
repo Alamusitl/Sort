@@ -1,13 +1,14 @@
 package com.owl;
 
 /**
+ * 选择排序法
  * Created by Alamusi on 2017/4/6.
  */
 
 public class SelectSort extends BaseSort {
 
     public static void main(String[] argv) {
-        selectionSort(Constant.sArray);
+        selectionSort(getArray());
         print();
     }
 

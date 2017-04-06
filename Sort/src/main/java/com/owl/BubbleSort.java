@@ -1,13 +1,14 @@
 package com.owl;
 
 /**
+ * 冒泡排序法
  * Created by Alamusi on 2017/4/6.
  */
 
 public class BubbleSort extends BaseSort {
 
     public static void main(String[] argv) {
-        bubbleSort(Constant.sArray);
+        bubbleSort(getArray());
     }
 
     private static void bubbleSort(int[] a) {
