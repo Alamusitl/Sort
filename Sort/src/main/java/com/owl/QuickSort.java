@@ -12,6 +12,13 @@ public class QuickSort extends BaseSort {
         print();
     }
 
+    /**
+     * 递归划分子序列
+     *
+     * @param arr   原数组
+     * @param left  左指针
+     * @param right 右指针
+     */
     private static void quickSort(int[] arr, int left, int right) {
         if (left >= right) {
             return;
@@ -28,13 +35,13 @@ public class QuickSort extends BaseSort {
             while (left < right && arr[right] > pivotKey) {
                 right--;
             }
-            arr[left] = arr[right];
+            arr[left] = arr[right];// 把小的移动到左边
             while (left < right && arr[left] <= pivotKey) {
                 left++;
             }
-            arr[right] = arr[left];
+            arr[right] = arr[left];// 把大的移动到右边
         }
-        arr[left] = pivotKey;
+        arr[left] = pivotKey;// 把基准数赋值到中间
         return left;
     }
 }

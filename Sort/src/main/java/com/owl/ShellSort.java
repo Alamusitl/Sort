@@ -2,6 +2,7 @@ package com.owl;
 
 /**
  * 希尔排序法
+ * 时间复杂度可以达到O(n^1.3)
  * Created by Alamusi on 2017/4/6.
  */
 

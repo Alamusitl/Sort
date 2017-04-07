@@ -13,7 +13,10 @@ public class BubbleSort extends BaseSort {
 
     private static void bubbleSort(int[] a) {
         int n = a.length;
-        //总共进行n-1轮的比较
+        // i = 0时把最大的数排到最后面
+        // i = 1时把第二个大的数排到最大数前面
+        // 如此循环排序
+        // 时间复杂度的O(n^2)
         for (int i = 0; i < n; i++) {
             for (int j = 1; j < n - i; j++) {
                 System.out.println("i = " + i + ", j = " + j + ", " + a[j - 1] + " :" + a[j]);

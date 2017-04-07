@@ -13,6 +13,10 @@ public class SelectSort extends BaseSort {
     }
 
     private static void selectionSort(int[] a) {
+        // i = 0时选出最小的数与数组第一个数交换
+        // i = 1时选出第二个小的数与数组第二个数交换
+        // 如此循环
+        // 时间复杂度为O(n^2)
         for (int i = 0; i < a.length - 1; i++) {//做第i趟排序
             int minIndex = i;
             for (int j = minIndex + 1; j < a.length; j++) {//选最小的记录
