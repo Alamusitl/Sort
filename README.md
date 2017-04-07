@@ -52,3 +52,6 @@ Java 简单排序算法
 
 #### 3. [基数排序](https://github.com/Alamusitl/Sort/tree/master/Sort/src/main/java/com/owl/RadixSort.java)
 &emsp;基数排序是通过多次的收分配和收集来实现的，关键字优先级低的先进行分配和收集。
+
+### 各个算法的比较
+![各个算法的比较](https://github.com/Alamusitl/Sort/tree/master/img/compare.png)
